@@ -1,0 +1,28 @@
+[
+  {
+    "id": "S101",
+    "name": "Ananya Sharma",
+    "department": "Computer Science",
+    "semester": 4,
+    "marks": [
+      78,
+      85,
+      90,
+      88,
+      92
+    ]
+  },
+  {
+    "id": "S102",
+    "name": "Rohan Verma",
+    "department": "Computer Science",
+    "semester": 4,
+    "marks": [
+      70,
+      72,
+      75,
+      74,
+      76
+    ]
+  }
+]
