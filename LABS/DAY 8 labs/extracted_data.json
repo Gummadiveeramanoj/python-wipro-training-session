@@ -1,0 +1,18 @@
+{
+    "page_title": "Gmail",
+    "hyperlinks": [
+        {
+            "text": "Forgot email?",
+            "url": "/signin/usernamerecovery?continue=https://mail.google.com/mail/u/0/?tab%3Drm%26ogbl&dsh=S1595319981:1769080572852026&emr=1&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://mail.google.com/mail/u/0/?tab%3Drm%26ogbl&ifkv=AXbMIuCsEAeIqnnq8JDpGDcphEnlqfmlrpvHsd2dhVdyrzAiwVcaYpF4hH4r2PrJ3af7Qviq-VWPwA&osid=1&service=mail"
+        },
+        {
+            "text": "Learn more about using Guest mode",
+            "url": "https://support.google.com/accounts?p=signin_privatebrowsing&hl=en-US"
+        },
+        {
+            "text": "Create account",
+            "url": "/lifecycle/flows/signup?continue=https://mail.google.com/mail/u/0/?tab%3Drm%26ogbl&dsh=S1595319981:1769080572852026&emr=1&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https://mail.google.com/mail/u/0/?tab%3Drm%26ogbl&ifkv=AXbMIuCsEAeIqnnq8JDpGDcphEnlqfmlrpvHsd2dhVdyrzAiwVcaYpF4hH4r2PrJ3af7Qviq-VWPwA&osid=1&service=mail"
+        }
+    ],
+    "list_items": []
+}

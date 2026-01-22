@@ -1,0 +1,37 @@
+{
+    "page_title": "HTML Tables",
+    "total_links": 37,
+    "links": "//www.w3schools.com/w3css/default.asp",
+    "table_data": [
+        [
+            "Alfreds Futterkiste",
+            "Maria Anders",
+            "Germany"
+        ],
+        [
+            "Centro comercial Moctezuma",
+            "Francisco Chang",
+            "Mexico"
+        ],
+        [
+            "Ernst Handel",
+            "Roland Mendel",
+            "Austria"
+        ],
+        [
+            "Island Trading",
+            "Helen Bennett",
+            "UK"
+        ],
+        [
+            "Laughing Bacchus Winecellars",
+            "Yoshi Tannamuri",
+            "Canada"
+        ],
+        [
+            "Magazzini Alimentari Riuniti",
+            "Giovanni Rovelli",
+            "Italy"
+        ]
+    ]
+}

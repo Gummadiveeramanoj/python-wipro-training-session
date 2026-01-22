@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "email": "Sincere@april.biz",
+        "city": "Gwenborough"
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "email": "Shanna@melissa.tv",
+        "city": "Wisokyburgh"
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "email": "Nathan@yesenia.net",
+        "city": "McKenziehaven"
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "email": "Julianne.OConner@kory.org",
+        "city": "South Elvis"
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "email": "Lucio_Hettinger@annie.ca",
+        "city": "Roscoeview"
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "city": "South Christy"
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "email": "Telly.Hoeger@billy.biz",
+        "city": "Howemouth"
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "email": "Sherwood@rosamond.me",
+        "city": "Aliyaview"
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "email": "Chaim_McDermott@dana.io",
+        "city": "Bartholomebury"
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "email": "Rey.Padberg@karina.biz",
+        "city": "Lebsackbury"
+    }
+]
