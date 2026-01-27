@@ -1,0 +1,20 @@
+[
+    {
+        "id": "s101",
+        "name": "Manoj",
+        "department": "cse",
+        "semester": 1,
+        "marks": [
+            100
+        ]
+    },
+    {
+        "id": "s102",
+        "name": "Pawan Kalyan",
+        "department": "cse",
+        "semester": 1,
+        "marks": [
+            98
+        ]
+    }
+]
