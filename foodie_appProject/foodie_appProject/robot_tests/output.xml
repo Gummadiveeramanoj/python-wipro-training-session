@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.11.0 on win32)" generated="2026-02-20T19:18:56.957587" rpa="false" schemaversion="5">
+<suite id="s1" name="Foodie" source="C:\Users\prave\OneDrive\Desktop\foodie_appProject\foodie_appProject\robot_tests\foodie.robot">
+<test id="s1-t1" name="Register Restaurant" line="7">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2026-02-20T19:18:57.173011" level="INFO">Creating Session using : alias=foodie, url=http://127.0.0.1:5000, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>foodie</arg>
+<arg>http://127.0.0.1:5000</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2026-02-20T19:18:57.173011" elapsed="0.001051"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-02-20T19:18:57.174979" level="INFO">${rand} = 4292</msg>
+<var>${rand}</var>
+<arg>__import__('random').randint(1000,9999)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-02-20T19:18:57.174062" elapsed="0.000917"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-02-20T19:18:57.176152" level="INFO">${name} = SpicyHub_4292</msg>
+<var>${name}</var>
+<arg>SpicyHub_${rand}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-02-20T19:18:57.174979" elapsed="0.001173"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-02-20T19:18:57.176152" level="INFO">${payload} = {'name': 'SpicyHub_4292', 'category': 'Non-Veg', 'location': 'Delhi'}</msg>
+<var>${payload}</var>
+<arg>name=${name}</arg>
+<arg>category=Non-Veg</arg>
+<arg>location=Delhi</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-02-20T19:18:57.176152" elapsed="0.000000"/>
+</kw>
+<kw name="POST On Session" owner="RequestsLibrary">
+<msg time="2026-02-20T19:18:57.192877" level="INFO">POST Request : url=http://127.0.0.1:5000/api/v1/restaurants 
+ path_url=/api/v1/restaurants 
+ headers={'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '69', 'Content-Type': 'application/json'} 
+ body=b'{"name": "SpicyHub_4292", "category": "Non-Veg", "location": "Delhi"}' 
+ </msg>
+<msg time="2026-02-20T19:18:57.192877" level="INFO">POST Response : url=http://127.0.0.1:5000/api/v1/restaurants 
+ status=201, reason=CREATED 
+ headers={'Server': 'Werkzeug/3.1.5 Python/3.11.0', 'Date': 'Fri, 20 Feb 2026 13:48:57 GMT', 'Content-Type': 'application/json', 'Content-Length': '42', 'Connection': 'close'} 
+ body={
+  "id": 13,
+  "name": "SpicyHub_4292"
+}
+ 
+ </msg>
+<msg time="2026-02-20T19:18:57.192877" level="INFO">${resp} = &lt;Response [201]&gt;</msg>
+<var>${resp}</var>
+<arg>foodie</arg>
+<arg>/api/v1/restaurants</arg>
+<arg>json=${payload}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2026-02-20T19:18:57.177151" elapsed="0.015726"/>
+</kw>
+<kw name="Status Should Be" owner="RequestsLibrary">
+<arg>201</arg>
+<arg>${resp}</arg>
+<doc>Fails if response status code is different than the expected.</doc>
+<status status="PASS" start="2026-02-20T19:18:57.192877" elapsed="0.001000"/>
+</kw>
+<status status="PASS" start="2026-02-20T19:18:57.170991" elapsed="0.022886"/>
+</test>
+<status status="PASS" start="2026-02-20T19:18:56.959585" elapsed="0.235292"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Foodie" id="s1" pass="1" fail="0" skip="0">Foodie</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
